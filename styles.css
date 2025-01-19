@@ -90,3 +90,55 @@ footer a {
 .hidden {
     display: none;
 }
+
+/* Media Queries para pantallas pequeñas (móviles y tablets) */
+@media screen and (max-width: 768px) {
+    /* Ajustar tamaño de texto y elementos */
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+
+    .galleryImages img {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    button {
+        width: 100%;
+        font-size: 18px;
+        padding: 12px;
+    }
+
+    iframe {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+/* Media Queries para pantallas muy pequeñas (móviles en modo vertical) */
+@media screen and (max-width: 480px) {
+    /* Ajustar el tamaño de los textos */
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    button {
+        padding: 15px;
+    }
+}
