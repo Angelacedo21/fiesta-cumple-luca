@@ -1,0 +1,92 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+}
+
+h1, h2 {
+    text-align: center;
+    color: black;
+}
+
+a {
+    text-decoration: solid;
+    color: rgb(0, 0, 0);
+}
+
+/* Hero (Encabezado principal) */
+.hero {
+    background-image: url('https://wallpapercave.com/wp/wp6970643.jpg');
+    background-size:cover;
+    background-position: center;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #f00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+/* Secciones de contenido */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(https://www.decoratorsbest.com/cdn/shop/files/6710880174126_20.jpg?v=1703234431);
+}
+
+#gameArea {
+    text-align: center;
+    background-color: #ddd;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+/* Galería de fotos */
+.galleryImages {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.galleryImages img {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    margin: 0 10px;
+}
+
+/* Estilos de visibilidad */
+.hidden {
+    display: none;
+}
